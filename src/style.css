@@ -1,17 +1,35 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); */
-/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* 1. Importación Única de Google Fonts (Mejorado) */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* 2. Importación de Tailwind */
 @import "tailwindcss";
 
+/* 3. ¡DECLARACIÓN DE FUENTES CON EL NUEVO @theme DE V4! */
+@theme {
+  /* Declara tus fuentes como variables CSS dentro del bloque @theme */
+  --font-roboto: 'Roboto', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-manrope: 'Manrope', sans-serif;
+
+  /* OPCIONAL: Sobrescribe la fuente sans por defecto (la que aplica 'font-sans') */
+  /* --font-sans: var(--font-poppins), system-ui; */
+
+  --text-light: #111111;
 
 
+}
 
-.roboto-regular {
+:root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 .roboto-bold {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -21,6 +39,12 @@
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
   font-style: normal;
 }
 
@@ -35,7 +59,7 @@
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-}
+} */
 
 /* :root {
   font-family: Poppins, sans-serif;
