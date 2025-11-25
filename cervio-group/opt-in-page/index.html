@@ -436,20 +436,8 @@
       </div>
     </div>
   </div>
-  <!-- <iframe
-                        src="https://api.leadconnectorhq.com/widget/form/bMf8FpecoX8RyPKIyoBM"
-                        style="width: 100%; height: 559px; border: none; border-radius: 0px; overflow: auto; display: block; position: relative; z-index: 2;"
-                        id="inline-bMf8FpecoX8RyPKIyoBM" data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow"
-                        data-trigger-value="alwaysShow" data-activation-type="alwaysActivated" data-activation-value=""
-                        data-deactivation-type="neverDeactivate" data-deactivation-value=""
-                        data-form-name="Formulario Corto" data-height="460"
-                        data-layout-iframe-id="inline-bMf8FpecoX8RyPKIyoBM" data-form-id="bMf8FpecoX8RyPKIyoBM"
-                        title="Formulario Corto" scrolling="yes">
-                      </iframe> -->
-
 
   <script>
-
     const modal = document.getElementById('modal-ghl');
 
     function openModal() {
@@ -463,10 +451,8 @@
         if (progressWrapper) {
           // Reiniciar a 0%
           progressWrapper.classList.remove('is-loaded');
-
           // Forzar reflow para que la transición pueda aplicarse desde 0%
           void progressWrapper.offsetWidth;
-
           // Disparar la transición inmediatamente después del reflow
           setTimeout(() => {
             progressWrapper.classList.add('is-loaded');
@@ -495,7 +481,6 @@
         closeModal();
       }
     }
-
     document.addEventListener('keydown', function (event) {
       if (event.key === 'Escape' && modal && !modal.classList.contains('hidden')) {
         closeModal();
