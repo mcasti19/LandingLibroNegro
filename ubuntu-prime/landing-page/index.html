@@ -5,19 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page - Ubuntu</title>
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   <link rel="stylesheet" href="/src/style.css">
   <script type="module" src="/src/optinModal.js"></script>
-
-  <style>
-    p {
-      color: #111111;
-    }
-
-    h2 {
-      color: black;
-    }
-  </style>
 </head>
 
 <body class=" bg-white text-black font-manrope">
@@ -31,13 +20,15 @@
   </header>
 
   <section class="pt-20 pb-16">
-    <div class="flex flex-col gap-3 w-full mx-auto p-1 sm:px-6 lg:px-8 text-center outline-0">
-      <p class="uppercase text-sm tracking-wide font-semibold mb-6 w-full leading-4 mx-auto text-cta-violet ">
+    <div class="flex flex-col gap-3 w-full mx-auto p-1 sm:px-6 lg:px-8 text-center outline-0 font-roboto">
+      <p
+        class="uppercase text-sm md:text-[19px] tracking-wider lg:tracking-widest font-bold mb-6 w-full leading-4 mx-auto px-2 outline-0">
         ATENCIÓN LATINOS QUE QUIEREN MAXIMIZAR SU FONDO DE RETIRO
       </p>
 
-      <h1 class="text-2xl sm:text-4xl md:text-5xl leading-11 mb-6 px-6 outline-0  font-black">
-        ¡Finalmente! Nueva forma de tener una <span class="text-cta-violet">estructura sólida para tu retiro</span> en
+      <h1
+        class="text-2xl md:text-4xl lg:text-[41px] md:w-1/2 mx-auto md:leading-14 leading-11 mb-6 px-3 font-bold outline-0">
+        ¡Finalmente! Nueva forma de tener una estructura sólida para tu retiro en
         menos de 5 años garantizado!
       </h1>
 
@@ -47,7 +38,7 @@
       <!-- <div class="mt-6 hidden lg:block"> -->
       <div class="mt-2">
         <a href="/ubuntu/questionnaire-page/index.html"
-          class="inline-block text-white bg-[#5302E5]  py-6 px-8 rounded-sm text-base  lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
+          class="inline-block text-white bg-[#5302E5] font-roboto font-bold p-6 md:px-40 rounded-sm text-lg lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
           RECLAMA TU ASESORÍA GRATIS
         </a>
       </div>
@@ -65,10 +56,10 @@
             sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy">
         </div>
         <div class="md:order-2">
-          <h2 class="text-2xl sm:text-4xl leading-12 mb-6 text-gray-900 font-extrabold ">
+          <h2 class="text-2xl sm:text-4xl leading-12 mb-6 text-gray-900 font-bold font-roboto ">
             ¡Finalmente una forma rápida y fácil de maximizar tu fondo de retiro!
           </h2>
-          <div class="flex flex-col gap-3 text-lg text-left mb-6 ">
+          <div class="flex flex-col gap-3 text-large font-light text-left mb-6 ">
             <p>
               ¿Estás cansado de tener el dinero estancado en el banco? ¿Harto de que la inflación devalúe tu dinero cada
               año? ¿Y buscas formas de tener buenas ganancias anuales garantizadas de tus ahorros? En
@@ -87,20 +78,16 @@
     </div>
   </section>
 
-  <section class="py-20 bg-white">
+  <section class="py-20 md:py-0 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-2 gap-6 items-center">
-        <div>
-          <img src="/images/1_lzcgjL0ua7hmyTPbXQpbjw.png"
-            alt="Gráfico o imagen descriptiva relacionada con fondos de retiro" width="800" height="450" srcset="/images/1_lzcgjL0ua7hmyTPbXQpbjw.png 800w, 
-          /images/1_lzcgjL0ua7hmyTPbXQpbjw-300x169.png 300w, 
-          /images/1_lzcgjL0ua7hmyTPbXQpbjw-768x432.png 768w" sizes="(max-width: 800px) 100vw, 800px" loading="lazy">
-        </div>
 
-        <div class="md:order-2">
-          <h2 class="text-2xl sm:text-4xl font-extrabold leading-12 mb-6 text-gray-900 poppings-bold">
-            ¡Simplemente sigue nuestra estrategia y evitarás llegar a tu vejez sin dinero! </h2>
-          <div class="flex flex-col gap-3 text-lg text-left mb-6 manrope-regular">
+      <div class="grid md:grid-cols-2 gap-6 items-center">
+
+        <div class="order-2 md:order-1">
+          <h2 class="text-[24px] md:text-[39px] leading-12 mb-6 font-bold font-roboto ">
+            ¡Simplemente sigue nuestra estrategia y evitarás llegar a tu vejez sin dinero!
+          </h2>
+          <div class="flex flex-col gap-3 text-large font-light text-left mb-6 manrope-regular">
             <p>
               Construir un fondo de retiro sólido puede ser mucho más fácil de lo que crees. Muchas personas simplemente
               no conocen los pasos correctos a seguir, lo que les hace tardar mucho más tiempo de lo necesario.
@@ -115,17 +102,27 @@
             <p>¿Te gustaría saber cómo funcionaría para ti?</p>
           </div>
         </div>
+
+        <div class="order-1 md:order-2">
+          <img src="/images/1_lzcgjL0ua7hmyTPbXQpbjw.png"
+            alt="Gráfico o imagen descriptiva relacionada con fondos de retiro" width="800" height="450" srcset="/images/1_lzcgjL0ua7hmyTPbXQpbjw.png 800w, 
+          /images/1_lzcgjL0ua7hmyTPbXQpbjw-300x169.png 300w, 
+          /images/1_lzcgjL0ua7hmyTPbXQpbjw-768x432.png 768w" sizes="(max-width: 800px) 100vw, 800px" loading="lazy">
+        </div>
+
       </div>
+
       <div class="mt-2 outline-0 flex justify-center">
         <a href="ubuntu/questionnaire-page/index.html"
-          class="inline-block text-white bg-[#5302E5]   py-6 px-8 rounded-sm text-lg font-bold  lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
+          class="inline-block text-white bg-[#5302E5] font-roboto font-bold p-6 md:px-22 rounded-sm text-lg lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
           RECLAMA TU ASESORÍA GRATIS
         </a>
       </div>
+
     </div>
   </section>
 
-  <section class="bg-[#ECECEC] flex flex-col gap-4 px-3 font-roboto py-5">
+  <section class="bg-[#ECECEC] flex flex-col gap-4 px-3 font-roboto py-5 items-center">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-[39px] font-extrabold text-center ">
       <h2>¡Pruebas!</h2>
     </div>
@@ -171,16 +168,16 @@
 
     <div class="mt-2 outline-0 flex justify-center">
       <a href="#"
-        class="inline-block text-white bg-[#5302E5]   py-6 px-8 rounded-sm text-lg font-bold  lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
+        class="inline-block text-white bg-[#5302E5] font-roboto font-bold p-6 md:px-22 rounded-sm text-lg lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
         RECLAMA TU ASESORÍA GRATIS
       </a>
     </div>
   </section>
 
   <section class="bg-[#F1F1FD] flex flex-col gap-4 px-3 font-roboto mb-5 pb-8 text-lg">
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col gap-4 md:w-1/2 mx-auto md:py-7 outline-0">
 
-      <div class="text-2xl font-roboto text-center font-bold leading-12 w-2/3 mx-auto py-8 pb-2  ">
+      <div class="text-2xl font-roboto text-center font-bold leading-12 mx-auto py-8 pb-2 px-11 outline-0">
         <h2>Este es un resumen de lo que cubriremos en tu asesoría GRATIS de 30 minutos...</h2>
       </div>
 
@@ -288,7 +285,7 @@
       </div>
       <div class="mt-2 outline-0 flex justify-center">
         <a href="#"
-          class="inline-block text-white bg-[#5302E5]   py-6 px-8 rounded-sm text-lg font-bold  lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
+          class="inline-block text-white bg-[#5302E5] font-roboto font-bold p-6 md:px-22 rounded-sm text-lg lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
           RECLAMA TU ASESORÍA GRATIS
         </a>
       </div>
@@ -296,22 +293,14 @@
     </div>
   </section>
 
-  <section class="py-20 bg-white">
+  <section class="py-20 md:py-0 md:pt-20  bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-2 gap-6 items-center">
-        <div class="">
-          <img src="/images/Senior-investors-GettyImages-1706989507.jpg"
-            alt="Captura de pantalla de la página o sección de fondos de retiro" width="800" height="534" srcset="/images/Senior-investors-GettyImages-1706989507.jpg 800w, 
-      /images/Senior-investors-GettyImages-1706989507-300x200.jpg 300w, 
-      /images/Senior-investors-GettyImages-1706989507-768x513.jpg 768w" sizes="(max-width: 800px) 100vw, 800px"
-            loading="lazy">
-        </div>
-
-        <div class="md:order-2">
-          <h2 class="text-2xl sm:text-4xl font-extrabold leading-12 mb-6 text-gray-900 poppings-bold">
+        <div class="order-2 md:order-1">
+          <h2 class="font-bold leading-12 mb-6 text-2xl sm:text-4xl font-roboto pr-12 lg:pr-26 lg:leading-14 ">
             90% de los latinos nunca lograrán retirarse bien en EE.UU. sin la ayuda correcta
           </h2>
-          <div class="flex flex-col gap-3 text-lg text-left mb-6 manrope-regular">
+          <div class="flex flex-col gap-3 text-left mb-6 font-manrope text-large font-light">
             <p>
               Lamentablemente, el 90% de los latinos en EE.UU nunca lograrán crear un fondo de retiro óptimo para su
               jubilación. No es culpa de ellos, simplemente no les han enseñado la mejor forma de poner sus ahorros a
@@ -327,11 +316,19 @@
           </div>
         </div>
 
+        <div class="order-1 md:order-2">
+          <img src="/images/Senior-investors-GettyImages-1706989507.jpg"
+            alt="Captura de pantalla de la página o sección de fondos de retiro" width="800" height="534" srcset="/images/Senior-investors-GettyImages-1706989507.jpg 800w, 
+      /images/Senior-investors-GettyImages-1706989507-300x200.jpg 300w, 
+      /images/Senior-investors-GettyImages-1706989507-768x513.jpg 768w" sizes="(max-width: 800px) 100vw, 800px"
+            loading="lazy">
+        </div>
+
       </div>
     </div>
   </section>
 
-  <section class="py-20 bg-white">
+  <section class="py-20 md:py-0 md:pb-20 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-2 gap-6 items-center">
         <div class="">
@@ -343,11 +340,11 @@
         </div>
 
         <div class="md:order-2">
-          <h2 class="text-2xl sm:text-4xl font-extrabold leading-12 mb-6 text-gray-900 poppings-bold">
+          <h2 class="text-2xl sm:text-4xl font-bold font-roboto leading-12 mb-6 md:pr-8 ">
             Ahorra años de las típicas pruebas y error usando nuestra estrategia para crear fondos de retiro de 5 cifras
             (o más)
           </h2>
-          <div class="flex flex-col gap-3 text-lg text-left mb-6 manrope-regular">
+          <div class="flex flex-col gap-3 text-lg text-left mb-6 font-manrope text-large font-lights">
             <p>
               ¿Por qué botar años luchando por tu cuenta, tratando de descubrir todo por ti mismo? Puedes ahorrar ese
               tiempo y obtener un resultado mucho mejor cuando recibes nuestro asesoramiento experto y utilizas nuestro
@@ -366,18 +363,18 @@
       </div>
       <div class=" outline-0 flex justify-center">
         <a href="#"
-          class="inline-block text-white bg-[#5302E5]   py-6 px-8 rounded-sm text-lg font-bold  lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
+          class="inline-block text-white bg-[#5302E5] font-roboto font-bold p-6 md:px-22 rounded-sm text-lg lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
           RECLAMA TU ASESORÍA GRATIS
         </a>
       </div>
     </div>
   </section>
 
-  <section class="w-full bg-[#EDF0FC]">
+  <section class="w-full bg-[#EDF0FC] md:pt-20">
     <div class="max-w-6xl mx-auto text-center flex flex-col gap-5 py-4">
 
       <div class="p-7 pb-0">
-        <h2 class="text-2xl md:text-4xl font-extrabold px-2 leading-11 font-roboto tracking-wider">
+        <h2 class="text-2xl md:text-4xl font-bold px-2 leading-11 font-roboto tracking-wider">
           Aquí tienes otras cosas que puedes esperar de tu asesoría GRATIS…
         </h2>
       </div>
@@ -391,9 +388,9 @@
               1
             </div>
           </div>
-          <h4 class="text-sm md:text-lg lg:[19px] leading-6 font-bold  mb-2 tracking-wide">
+          <h5 class="text-sm md:text-lg lg:text-[19px] leading-6 font-bold  mb-2 tracking-wide font-roboto">
             La fría y cruda VERDAD sobre la industria de los IUL (Seguros de vida indexados)
-          </h4>
+          </h5>
           <p class="text-[18px] font-manrope font-normal text-left md:text-[22px] tracking-wide">
             Revelaremos qué está pasando REALMENTE detrás de cámaras y por qué puede parecer mucho más difícil crear un
             fondo de retiro en el mercado actual
@@ -407,11 +404,11 @@
               2
             </div>
           </div>
-          <h4 class="text-sm md:text-lg lg:[19px] leading-6 font-bold  mb-2 tracking-widest">
+          <h5 class="text-sm md:text-lg lg:text-[19px] leading-6 font-bold  mb-2 tracking-widest font-roboto">
             7 pequeños tips para ver tu dinero crecer
             de forma rápida y
             fácil
-          </h4>
+          </h5>
           <p class="text-[18px] font-manrope font-normal text-left md:text-[22px] tracking-wide">
             Hemos usado estos trucos y tips para
             acelerar
@@ -428,9 +425,9 @@
               3
             </div>
           </div>
-          <h4 class="text-sm md:text-lg lg:[19px] leading-6 font-bold  mb-2">
+          <h5 class="text-sm md:text-lg lg:text-[19px] leading-6 font-bold  mb-2 font-roboto">
             Por qué invertir en un 401(k) o en una cuenta de ahorros no siempre es la mejor opción
-          </h4>
+          </h5>
           <p class="text-[18px] font-manrope font-normal text-left md:text-[22px]">
             Un 401(k) siempre es lo mejor, ¿verdad? ¡Incorrecto! Te mostraremos por qué hay mucho más de lo que parece a
             simple vista y qué deberías hacer en su lugar.
@@ -445,9 +442,9 @@
               4
             </div>
           </div>
-          <h4 class="text-sm md:text-lg lg:[19px] leading-6 font-bold mb-2 tracking-wider">
+          <h5 class="text-sm md:text-lg lg:text-[19px] leading-6 font-bold mb-2 tracking-wider font-roboto">
             La clave vital para disponer del dinero lo más rápido posible
-          </h4>
+          </h5>
           <p class="text-[18px] font-manrope font-normal text-left md:text-[22px] tracking-wide">
             Esta pieza clave del rompecabezas es crucial para crear una cuenta de retiro de 6 cifras, y sin ella estás
             destinado al fracaso. ¡Asegúrate de tenerla a toda costa!
@@ -461,9 +458,9 @@
               5
             </div>
           </div>
-          <h4 class="text-sm md:text-lg lg:[19px] leading-6 font-bold  mb-2">
+          <h5 class="text-sm md:text-lg lg:text-[19px] leading-6 font-bold  mb-2 font-roboto">
             Qué nunca debes hacer al comenzar a invertir tu dinero para maximizar un fondo de retiro
-          </h4>
+          </h5>
           <p class="text-[18px] font-manrope font-normal text-left md:text-[22px]">
             Por favor, NUNCA JAMÁS hagas esto en tu camino hacia crear tu fondo de retiro (a menos que quieras seguir
             sin ahorros por AÑOS más de lo necesario).
@@ -471,104 +468,150 @@
         </div>
 
       </div>
-      <div class="mt-4">
-        <a href="#" onclick="return openModal();"
-          class="text-white bg-[#5302E5]  py-7 px-14 md:py-5 md:px-16 rounded-md text-sm lg:text-2xl text-center uppercase tracking-wider shadow-lg hover:shadow-xl inline-block transition duration-300">
-          DESCARGA TU COPIA AHORA
+      <div class=" outline-0 flex justify-center">
+        <a href="#"
+          class="inline-block text-white bg-[#5302E5] font-roboto font-bold p-6 md:px-22 rounded-sm text-lg lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
+          RECLAMA TU ASESORÍA GRATIS
         </a>
       </div>
     </div>
   </section>
 
-  <section class="py-20 bg-white">
-    <div class="w-1/3">
-      <img src="/images/illustration-icon-guarantee-placeholder-1.png" alt="" width="384" height="581" srcset="/images/illustration-icon-guarantee-placeholder-1.png 384w, 
+  <section class="py-20 bg-white text-center">
+    <div class="md:w-1/2 flex flex-col items-center mx-auto outline-0">
+      <div class="w-1/3 outline-0 mx-auto">
+        <img src="/images/illustration-icon-guarantee-placeholder-1.png" alt="" width="384" height="581" srcset="/images/illustration-icon-guarantee-placeholder-1.png 384w, 
           /images/illustration-icon-guarantee-placeholder-1-198x300.png 198w" sizes="(max-width: 384px) 100vw, 384px"
-        loading="lazy">
-    </div>
-    <div>
-      <h2>
-
-      </h2>
-    </div>
-    <p></p>
-    <div class="mt-4">
-      <a href="#" onclick="return openModal();"
-        class="text-white bg-[#5302E5]  py-7 px-14 md:py-5 md:px-16 rounded-md text-sm lg:text-2xl text-center uppercase tracking-wider shadow-lg hover:shadow-xl inline-block transition duration-300">
-        DESCARGA TU COPIA AHORA
-      </a>
-    </div>
-  </section>
-
-  <section class="bg-[#ECECEC] flex flex-col gap-4 px-3 font-roboto py-5">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-[39px] font-semibold text-center ">
-      <h2>¡Más Pruebas!</h2>
-    </div>
-    <div>
-      <img src="/images/Screenshot-2024-12-07-075231.png" alt="Captura de pantalla de fondos de retiro" width="797"
-        height="448" srcset="/images/Screenshot-2024-12-07-075231.png 797w, 
-          /images/Screenshot-2024-12-07-075231-300x169.png 300w, 
-          /images/Screenshot-2024-12-07-075231-768x432.png 768w" sizes="(max-width: 797px) 100vw, 797px"
-        loading="lazy">
-    </div>
-
-    <div>
-      <img src="/images/Screenshot-2024-12-07-075144.png" alt="Captura de pantalla de la sección de fondos de retiro"
-        width="898" height="443" srcset="/images/Screenshot-2024-12-07-075144.png 898w, 
-          /images/Screenshot-2024-12-07-075144-300x148.png 300w, 
-          /images/Screenshot-2024-12-07-075144-768x379.png 768w" sizes="(max-width: 898px) 100vw, 898px"
-        loading="lazy">
-    </div>
-
-    <div>
-      <img src="/images/Screenshot-2024-12-07-075134.png"
-        alt="Captura de pantalla de un gráfico o datos sobre fondos de retiro" width="898" height="529" srcset="/images/Screenshot-2024-12-07-075134.png 898w, 
-          /images/Screenshot-2024-12-07-075134-300x177.png 300w, 
-          /images/Screenshot-2024-12-07-075134-768x452.png 768w" sizes="(max-width: 898px) 100vw, 898px"
-        loading="lazy">
-    </div>
-
-    <div>
-      <img src="/images/Screenshot-2024-12-07-075103.png"
-        alt="Captura de pantalla de la interfaz o dashboard de fondos de retiro" width="894" height="472" srcset="/images/Screenshot-2024-12-07-075103.png 894w, 
-          /images/Screenshot-2024-12-07-075103-300x158.png 300w, 
-          /images/Screenshot-2024-12-07-075103-768x405.png 768w" sizes="(max-width: 894px) 100vw, 894px"
-        loading="lazy">
-    </div>
-
-    <div>
-      <img src="/images/Screenshot-2024-12-07-075050.png"
-        alt="Captura de pantalla de la página o sección de fondos de retiro" width="897" height="508" srcset="/images/Screenshot-2024-12-07-075050.png 897w, 
-          /images/Screenshot-2024-12-07-075050-300x170.png 300w, 
-          /images/Screenshot-2024-12-07-075050-768x435.png 768w" sizes="(max-width: 897px) 100vw, 897px"
-        loading="lazy">
-    </div>
-
-    <div class="mt-2 outline-0 flex justify-center">
-      <a href="#"
-        class="inline-block text-white bg-[#5302E5]   py-6 px-8 rounded-sm text-lg font-bold  lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
-        RECLAMA TU ASESORÍA GRATIS
-      </a>
+          loading="lazy" class="w-[40%] mx-auto">
+      </div>
+      <div class="md:w-2/3 outline-0">
+        <h2 class="text-black text-[29px] dos font-bold font-roboto p-5">
+          Nuestra garantía inquebrantable de no poder perder con esta inversión
+        </h2>
+        <p class="text-[18px] font-roboto font-normal md:text-[22px] p-7">
+          Cuando sigues nuestra estrategia en Lifeinsurance.us, puedes invertir con confianza porque siempre estarás
+          respaldado por la garantía no poder perder el dinero. Si la economía entra en recesión o el mercado baja,
+          respaldaremos tu dinero para que se mantenga intacto.
+        </p>
+      </div>
+      <div class=" outline-0 flex justify-center">
+        <a href="#"
+          class="inline-block text-white bg-[#5302E5] font-roboto font-bold p-6 md:px-22 rounded-sm text-lg lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
+          RECLAMA TU ASESORÍA GRATIS
+        </a>
+      </div>
     </div>
   </section>
 
-  <section class="bg-[#F1F1FD] flex flex-col gap-4 px-3 font-roboto mb-5 pb-8 text-lg">
-    <div class="flex flex-col gap-4">
+  <section class="bg-[#FFFFFF] px-3 font-roboto py-5 ">
+    <div class="flex flex-col gap-4 w-2/3 mx-auto outline-0">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-[39px] font-semibold text-center ">
+        <h2>¡Más Pruebas!</h2>
+      </div>
 
-      <div class="text-2xl font-roboto text-center font-bold leading-10 px-10 mx-2 mx-auto py-8 pb-2 tracking-wide ">
+      <div class="flex flex-col md:flex-row md:gap-4">
+        <div>
+          <img src="/images/Screenshot-2024-12-07-074948.png" alt="Captura de pantalla de fondos de retiro" width="896"
+            height="533" srcset="/images/Screenshot-2024-12-07-074948.png 896w, 
+          /images/Screenshot-2024-12-07-074948-300x178.png 300w, 
+          /images/Screenshot-2024-12-07-074948-768x457.png 768w" sizes="(max-width: 896px) 100vw, 896px"
+            loading="lazy">
+        </div>
+        <div>
+          <img src="/images/Screenshot-2024-12-07-081857-1024x351.png" alt="Captura de pantalla de fondos de retiro"
+            width="1024" height="351" srcset="/images/Screenshot-2024-12-07-081857-1024x351.png 1024w, 
+          /images/Screenshot-2024-12-07-081857-300x103.png 300w, 
+          /images/Screenshot-2024-12-07-081857-768x263.png 768w, 
+          /images/Screenshot-2024-12-07-081857.png 1064w" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy">
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row md:gap-4">
+        <div>
+          <img src="/images/Screenshot-2024-12-07-080753.png" alt="Captura de pantalla de fondos de retiro" width="786"
+            height="419" srcset="/images/Screenshot-2024-12-07-080753.png 786w, 
+          /images/Screenshot-2024-12-07-080753-300x160.png 300w, 
+          /images/Screenshot-2024-12-07-080753-768x409.png 768w" sizes="(max-width: 786px) 100vw, 786px"
+            loading="lazy">
+        </div>
+        <div>
+          <img src="/images/Screenshot-2024-12-07-080500.png" alt="Captura de pantalla de fondos de retiro" width="787"
+            height="503" srcset="/images/Screenshot-2024-12-07-080500.png 787w, 
+          /images/Screenshot-2024-12-07-080500-300x192.png 300w, 
+          /images/Screenshot-2024-12-07-080500-768x491.png 768w" sizes="(max-width: 787px) 100vw, 787px"
+            loading="lazy">
+        </div>
+      </div>
+
+
+
+      <div class="flex flex-col md:flex-row md:gap-4">
+        <div>
+          <div>
+            <img src="/images/Screenshot-2024-12-07-080324.png" alt="Captura de pantalla de fondos de retiro"
+              width="789" height="303" srcset="/images/Screenshot-2024-12-07-080324.png 789w, 
+          /images/Screenshot-2024-12-07-080324-300x115.png 300w, 
+          /images/Screenshot-2024-12-07-080324-768x295.png 768w" sizes="(max-width: 789px) 100vw, 789px"
+              loading="lazy">
+          </div>
+          <div>
+            <img src="/images/Screenshot-2024-12-07-082002-1024x365.png" alt="Captura de pantalla de fondos de retiro"
+              width="1024" height="365" srcset="/images/Screenshot-2024-12-07-082002-1024x365.png 1024w, 
+          /images/Screenshot-2024-12-07-082002-300x107.png 300w, 
+          /images/Screenshot-2024-12-07-082002-768x274.png 768w, 
+          /images/Screenshot-2024-12-07-082002.png 1066w" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy">
+          </div>
+        </div>
+
+
+
+        <div>
+          <div>
+            <img src="/images/Screenshot-2024-12-07-082014-1024x287.png" alt="Captura de pantalla de fondos de retiro"
+              width="1024" height="287" srcset="/images/Screenshot-2024-12-07-082014-1024x287.png 1024w, 
+          /images/Screenshot-2024-12-07-082014-300x84.png 300w, 
+          /images/Screenshot-2024-12-07-082014-768x215.png 768w, 
+          /images/Screenshot-2024-12-07-082014.png 1075w" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy">
+          </div>
+
+          <div>
+            <img src="/images/Screenshot-2024-12-07-081942-1024x494.png" alt="Captura de pantalla de fondos de retiro"
+              width="1024" height="494" srcset="/images/Screenshot-2024-12-07-081942-1024x494.png 1024w, 
+          /images/Screenshot-2024-12-07-081942-300x145.png 300w, 
+          /images/Screenshot-2024-12-07-081942-768x371.png 768w, 
+          /images/Screenshot-2024-12-07-081942.png 1075w" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="mt-2 outline-0 flex justify-center">
+        <a href="#"
+          class="inline-block text-white bg-[#5302E5] font-roboto font-bold p-6 md:px-22 rounded-sm text-lg lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
+          RECLAMA TU ASESORÍA GRATIS
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#FFFFFF]  font-roboto mb-5 pb-8 md:pt-20 ">
+    <div class="flex flex-col gap-4 md:gap-10 px-3 lg:w-1/2 mx-auto outline-0">
+
+      <div class="text-2xl font-roboto text-center font-bold leading-10 px-10  mx-auto py-8 pb-2 tracking-wide ">
         <h2>Reclama tu asesoría gratis de 30 minutos y sin obligaciones (Valorada en $497)</h2>
       </div>
 
-      <div>
-        <p>
+      <div class="md:w-1/2 mx-auto">
+        <p class="text-lg md:text-[22px] font-light text-center font-manrope px-0.5">
           Durante esta llamada sin compromiso, nuestros expertos analizarán tu situación específica y cómo podemos
           ayudarte a maximizar tu cuenta de retiro en el menor tiempo posible.
+          <br>
           Esto es lo que descubrirás en tu consulta GRATIS…
         </p>
       </div>
 
       <div>
-        <ul class="space-y-3">
+        <ul class="space-y-3 outline-0 md:px-16">
           <li class="flex gap-3">
             <span>
               <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle w-8 self-start mt-1.5"
@@ -626,7 +669,7 @@
       </div>
       <div class="mt-2 outline-0 flex justify-center">
         <a href="#"
-          class="inline-block text-white bg-[#5302E5]   py-6 px-8 rounded-sm text-lg font-bold  lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
+          class="inline-block text-white bg-[#5302E5] font-roboto font-bold p-6 md:px-22 rounded-sm text-lg lg:text-[20px] uppercase tracking-wider shadow-lg hover:shadow-xl transition duration-300">
           RECLAMA TU ASESORÍA GRATIS
         </a>
       </div>

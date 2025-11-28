@@ -15,9 +15,31 @@
   /* --font-sans: var(--font-poppins), system-ui; */
 
   --text-light: #111111;
+
+  --text-small: 0.875rem;
+  --text-medium: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.196), 1.125rem);
+  --text-large: clamp(1.125rem, 1.125rem + ((1vw - 0.2rem) * 0.392), 1.375rem);
+  --text-larget: clamp(1.170rem, 1.155rem + ((2vw - 0.2rem) * 1.05), 1.80rem);
+  --text-x-large: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.392), 2rem);
+  --text-xx-large: clamp(2.15rem, 2.15rem + ((1vw - 0.2rem) * 1.333), 3rem);
 }
 
+p {
+  color: #111111;
+}
 
+h2~.dos {
+  color: black;
+  @apply text-[24px]
+}
+
+/* La breakpoint 'md' de Tailwind suele ser 768px */
+@media (min-width: 768px) {
+  h2 {
+    font-size: 39px;
+    /* O usa @apply text-[39px]; */
+  }
+}
 
 
 
